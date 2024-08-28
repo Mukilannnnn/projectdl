@@ -4,8 +4,8 @@ import tensorflow as tf
 import joblib
 
 # Correct file paths
-model_path = r'C:\Users\umuki\OneDrive\Desktop\model\model.h5'
-scaler_path = r'C:\Users\umuki\OneDrive\Desktop\model\scaler.pkl'
+model_path ='model.h5'
+scaler_path = 'scaler.pkl'
 
 # Load the model and scaler
 model = tf.keras.models.load_model(model_path)
